@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.home-page {
+  display:flex;
+  flex-direction: row;
+}
+/* tbody {
+	background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+	
+	display: flex;
+
+	font-family: 'Lato', sans-serif;
+} */
+th{
+  background-color: silver;
+}
+tbody{
+  /* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
+  background-image: linear-gradient( #f5f7fa 0%, #c3cfe2 100%);
+
+}
+
+.table-container{
+  width: 100%;
+  border: 1px solid powderblue;
+  text-align: center;
+  font-size: 140%;
+}
+table {
+  width: 100%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+/* table thead button {
+	margin-left: 10px;
+} */
+header{
+  background-color:rgba(255, 99, 71, 0.6);
+}
